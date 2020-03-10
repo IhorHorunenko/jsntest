@@ -1,0 +1,125 @@
+#form_addHeros {
+	position: relative;
+	padding-bottom: 100px;
+}
+#form_addHeros .forms {
+	text-align: center;
+	width: 50%;
+	padding: 10px 10px;
+	border-radius: 0 0 6px 6px;
+	left: 25%;
+	top: 0;
+	background: linear-gradient(to top, rgba(232,232,232,0.9), rgba(232,232,232,0.9));
+	border: 1px solid #cccccc;
+	border-top: none;
+	position: absolute;
+	z-index: 2;
+}
+#load {
+	margin-bottom: 15px;
+}
+#form_addHeros .forms table, #edit table {
+	margin: 0 auto;
+}
+#form_addHeros .forms table label, #edit table label {
+	font-size: 14px;
+	cursor: pointer;
+	color: #8a8a8a;
+}
+#form_addHeros .forms table span, #edit table span {
+	font-size: 10px;
+	color: #b0b0b0;
+}
+#form_addHeros form textarea, form input {
+	display: block;
+	margin: 0 auto;
+}
+#form_addHeros .a_button {
+	color: #949494;
+	line-height: 15px;
+	padding: 5px 25px;
+	border: none;
+	border-radius: 0 0 3px 3px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+    transform: translate(-50%, -50%);
+	z-index: 1;
+	transition: 0.2s;
+}
+#form_addHeros .a_button:focus {
+    outline: none;
+}
+#form_addHeros .a_button:hover {
+	
+	color: #636363;
+	background: #ebebeb;
+}
+.heros_info {
+	border: 1px solid #e0e0e0;
+	text-align: center;
+	background: #fafafa;
+	border-radius: 10px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.heros_info h5 {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heros_info img {
+	width: 100%;
+	height: 200px;
+	padding-bottom: 50px;
+}
+.menu_heros_info {
+	position: absolute;
+	background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	padding-top: 25%;
+}
+.menu_heros_info a {
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff;
+	background: linear-gradient(to top, rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+}
+.menu_heros_info a.read {
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 5px 15px;
+	border-radius: 3px;
+}
+.menu_heros_info a.edit, a.dell{
+	padding: 10px 15px;
+	border-radius: 50%;
+}
+.menu_heros_info a:hover {
+	text-decoration: none;
+	color: #dbdbdb;
+}
+#upload_img .block_heros {
+	position: relative;
+}
+#upload_img .block_heros .del_img {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	color: red;
+	z-index: 3;
+}
+#edit input, #edit textarea, #form_addHeros form textarea, form input {
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+}
+#edit input:focus, #edit textarea:focus, #form_addHeros form textarea:focus, form input:focus {
+	outline: none;
+}
